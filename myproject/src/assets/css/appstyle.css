@@ -1,0 +1,59 @@
+@import "./base.css";
+body,html{width: 100%;height: 100%;}
+
+.app-header{width: 100%;background-color: #333;position: fixed;bottom: 0;z-index: 100;}
+.app-header ul li a{color: #fff}
+.app-header ul{width: 100%;display: flex;justify-content: space-around}
+.app-header ul li{width: 20%;text-align: center;padding: 16px 0;color: #fff;}
+.app-header ul li.active::after{ content:"";width: 100%;height: 1px;background: red; }
+.app-header ul li.active {color: red;}
+
+.app-content{padding: 0 0 53px;}
+.app-item-name{color:#00abff;font-size: 14px;}
+.app-item-thumb{width: 32px;height: 32px;overflow: hidden;border-radius: 50%;}
+.app-item-thumb img{width: 32px;}
+.app-item-time{font-size: 12px;color: #111}
+.app-item-author{display: flex}
+.app-item-r{margin-left: 15px}
+
+.app-item{margin: 20px 0;border-bottom:2px solid #c3c3c3;}
+
+.app-item-desc{font-size: 12px;margin: 5px 0;}
+
+.app-item-content-img,.app-item-content-img img{max-width: 100%;display: block;max-height: 200px;min-height: 100px;}
+.app-item-content-video,.app-item-content-video img.app-item-content-video-a-img{max-width: 100%;display: block;max-height: 200px;min-height: 100px;}
+.app-item-content-video-a{width: auto;position: relative;    display: inline-block;}
+.app-item-content-video-a::after{content: "";width: 100%;height: 100%; background: rgba(255,255,255,0.5);position: absolute;top: 0;left: 0;z-index: 10;}
+.app-item-content-video .playerBtn{position: absolute;top: 0;left: 0;right:0;bottom: 0; margin: auto;display: block;width: 16px;z-index: 100;}
+.app-item-content{margin: 12px;}
+
+.app-longImg{width: 100%;height:100%;z-index: 10;overflow: auto;background: #000;position: fixed;top:0;left: 0;transition: 0.2s all;opacity: 1;}
+.app-longImg img{width: 100%;}
+
+.app-video-player{width: 100%;height: 100%;}
+.video-js.vjs-fullscreen {width: 100% !important;height: 100% !important;padding-top: 0 !important;}
+
+.app-item-other{font-size: 12px;color:#999;display: flex;justify-content: space-between;width: 100%;padding: 0 12px}
+
+.app-loading{}
+.app-loading img{position: absolute;top: 0;bottom: 0;left: 0;margin: auto;right: 0;}
+
+
+
+
+
+
+
+
+/* 上拉加载 下拉刷新 */
+.app-scroll-content {position: absolute;top: 0; left: 0;right: 0;bottom: 53px; padding:0; overflow: hidden;}  /*  bottom: 53px; */
+.app-scroll-item{height: 80px; background-color: #eee;text-align: center;line-height: 80px;}
+.app-scroll-loading {position: absolute;top: -25px;left: 50%;transform: translateX(-50%);width: 20px;height: 20px;background: url('../images/loading.gif') no-repeat;background-size: 100%}
+.app-scroll-bottomloading{position: absolute;bottom: -25px;left: 50%;transform: translateX(-50%);width: 100%;font-size: 14px;color: green;text-align: center;}
+.app-scroll-toploading{position: absolute;top: -25px;left: 50%;transform: translateX(-50%);width: 100%;font-size: 14px;color: green;text-align: center;}
+
+
+
+
+
+

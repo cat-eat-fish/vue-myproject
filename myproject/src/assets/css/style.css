@@ -1,0 +1,62 @@
+@import "./base.css";
+.font14{font-size: 14px;}
+.content{position: relative;max-width: 980px;margin: 0  auto;}
+    
+/* 404 */
+.no404{height: 100vh;background: url(../images/404-background.png);background-size: cover;background-position: 50%;}
+.content-centered {position: absolute;top: 0; bottom: 0;left: 0;right: 0;width: 100%;margin: auto;height: 250px;text-align: center;}
+.error-404-content h1 {font-size: 120px; color: #fff;opacity: 0.3;} 
+.error-404-content p {color: #fff;max-width: 400px;margin: 0 auto;}
+.btn-outline {user-select: none;outline: none; cursor: pointer; color: #fff; background: transparent;border: 2px solid;border-radius: 30px;margin: 35px 0 0;padding: 8px 45px; transition: 0.3s ease-in-out;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center; white-space: nowrap;vertical-align: middle;display: inline-block;}
+
+
+/* header */
+.headerbg{width: 100%;position: relative;background-color: #24292e;}
+.Header{background-color: #24292e;color: hsla(0,0%,100%,.7);z-index: 32;padding: 16px 0;max-width: 1012px;margin: 0 auto;}
+.Header ul{display: flex;justify-content: space-around}
+.Header ul li a{color: #fff;text-decoration: none;}
+
+
+/* images */
+.my-images ul.imagesul{width: 100%;display: flex;justify-content: space-between;flex-wrap: wrap}
+.my-images ul.imagesul li,.my-images ul.imagesul li img{width: 236px;position: relative;display: inline-block;}
+.my-images ul.imagesul li .imgbox{content: ""; position: absolute;width: 100%;height: 20px;top: 0px;background: #000;z-index: 100;left: 0;display: block;opacity: 0.3;}
+.my-images ul.imagesul li .imgbox{color: #fff;text-align: center;font-size: 12px;}
+
+
+/* videolist */
+.contain{width: 980px;margin: 0 auto;}
+/* .content{padding: 20px 0 0 70px;overflow: hidden;} */
+.contain .title{height: 20px;line-height: 20px;font-weight: 700;font-size: 14px;color: #222;}
+.contain .desc{font-size:14px;text-indent: 2em;}
+.contain .detail {margin-top: 20px;color: #99a2aa;font-size: 12px;}
+.contain .data-box {width: 80px;margin-right: 20px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+ul.contain li{transition: .2s;overflow: hidden;border-bottom: 1px solid #e5e9ef;position: relative;}
+ul.contain li:hover {box-shadow: 0 2px 5px #ccc;}
+ul.contain li .img{width: 114px;    position: relative;float: left;}
+ul.contain li .img img{width: 100%;}
+ul.contain li .info{padding-bottom: 20px;margin-left: 130px;position: relative;}
+.num{width: 70px;height: 70px;position: absolute;top: 20px;left: 0;line-height: 70px;text-align: center;font-size: 36px;font-weight: 700;color: #b8c0cc;font-family: simhei;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
